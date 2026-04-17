@@ -1,0 +1,71 @@
+/* Body center alignment */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+}
+
+/* Mobile container */
+.app-container {
+  width: 375px;
+  min-height: 100vh;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 80px;
+}
+
+/* Headings */
+h1 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+/* Paragraph */
+p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Primary button */
+.primary-btn {
+  background: linear-gradient(90deg, #6c25ff, #9333ea);
+  color: white;
+  font-weight: bold;
+}
+
+/* Secondary button */
+.secondary-btn {
+  background: #e5d9ff;
+  color: black;
+}
+
+/* Hover effect */
+.primary-btn:hover {
+  opacity: 0.9;
+}

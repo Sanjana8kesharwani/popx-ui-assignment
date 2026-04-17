@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --purple: #6C25FF;
+  --purple-light: #7B35FF;
+  --purple-dark: #5A1FD4;
+  --gray-bg: #F7F8F9;
+  --gray-border: #E0E0E0;
+  --gray-text: #B0B0B0;
+  --dark: #1A1A2E;
+  --body-text: #4A4A68;
+  --white: #FFFFFF;
+  --font: 'Nunito', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: #EFEFEF;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
